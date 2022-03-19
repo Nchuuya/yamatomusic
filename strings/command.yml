@@ -32,13 +32,13 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 
 
 # Tools
-QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
-SONG_COMMAND : ["song", "video"]
-LYRICS_COMMAND : ["lyrics"]
+QUEUE_COMMAND : ["yqueue","cqueue", "player", "cplayer", "playing", "cplaying"]
+SONG_COMMAND : ["ysong", "yvideo"]
+LYRICS_COMMAND : ["ylyrics"]
 
 
 # Admin Commands
-AUTH_COMMAND : ["auth"]
+AUTH_COMMAND : ["yauth"]
 UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
 PAUSE_COMMAND : ["pause", "cpause"]
@@ -50,17 +50,17 @@ SKIP_COMMAND : ["skip", "cskip"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["loop", "cloop"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["restart"]
+RESTART_COMMAND : ["yrestart"]
 
 # Sudo Users Commaands
 
 # Sudo Command
 ADDSUDO_COMMAND : ["yaddsudo"]
 DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+SUDOUSERS_COMMAND : ["ysudolist"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast"]
+BROADCAST_COMMAND : ["ybroadcast"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat"]
@@ -85,27 +85,27 @@ VARS_COMMAND : ["vars", "config"]
 
 
 #Basic Bot Commands
-UPDATE_COMMAND : ["update"]
-REBOOT_COMMAND : ["reboot"]
+UPDATE_COMMAND : ["yupdate"]
+REBOOT_COMMAND : ["yreboot"]
 
 #Private Bot Mode
-AUTHORIZE_COMMAND : ["authorize"]
+AUTHORIZE_COMMAND : ["yauthorize"]
 UNAUTHORIZE_COMMAND : ["unauthorize"]
 AUTHORIZED_COMMAND : ["authorized"]
 
 #Block Users Command
-BLOCK_COMMAND : ["block"]
+BLOCK_COMMAND : ["yblock"]
 UNBLOCK_COMMAND : ["unblock"]
 BLOCKED_COMMAND : ["blockedusers"]
 
 #sPEEDTEST
-SPEEDTEST_COMMAND : ["speedtest"]
+SPEEDTEST_COMMAND : ["yspeedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice"]
-ACTIVEVIDEO_COMMAND : ["activevideo"]
+ACTIVEVC_COMMAND : ["yactivevoice"]
+ACTIVEVIDEO_COMMAND : ["yactivevideo"]
 
 #Gban Commands
-GBAN_COMMAND : ["gban"]
-UNGBAN_COMMAND : ["ungban"]
+GBAN_COMMAND : ["ygban"]
+UNGBAN_COMMAND : ["yungban"]
 GBANNED_COMMAND : ["gbannedusers"]
